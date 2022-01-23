@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+  </head>
+
+  <body>
+
+    <input type="number" id="number1" value="1"><br><br>
+    <input type="number" id="number2" value="1"><br><br>
+
+    <button onclick="toplam()" class="button">+</button>
+    <button onclick="çıkarma()" class="button">-</button><br><br>
+    <button onclick="çarpma()" class="button">*</button>
+    <button onclick="bölme()" class="button">/</button>
+
+    <div class="contenier"></div>
+    
+    <p class="sonuç"></p>
+    <div class="color-pick">
+      <input type="color" id="background-color" value="#792525">
+      <input type="color" id="div-color" value="#013d03"><br><br>
+    </div>
+
+
+    <button onclick="change()" class="changes">
+      Change Background
+    </button><br><br>
+
+    <button onclick="divChange()" class="changes">
+      Change color result
+    </button>
+
+ 
+
+    <script src="app.js"></script>
+  </body>
+
+</html>
